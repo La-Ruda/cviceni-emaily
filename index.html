@@ -12,52 +12,12 @@
 <body>
   <div id="app" class="container">
     <h1>Příchozí pošta</h1>
-    <button class="loadInbox">Zobrazit příchozí poštu</button>
 
     <div id="inbox" class="inbox">
-      <h2>Nepřečtené</h2>
-
-      <div class="email">
-        <div class="email__head">
-          <button class="email__icon email__icon--closed"></button>
-          <div class="email__info">
-            <div class="email__sender">Pavel Chocholouš</div>
-            <div class="email__subject">Jak to jde?</div>
-          </div>
-          <div class="email__time">12:35</div>
-        </div>
-        <div class="email__body"></div>
-      </div>
-
-      <div class="email">
-        <div class="email__head">
-          <button class="email__icon email__icon--closed"></button>
-          <div class="email__info">
-            <div class="email__sender">Finanční úřad</div>
-            <div class="email__subject">Daňové přiznání</div>
-          </div>
-          <div class="email__time">9:05</div>
-        </div>
-        <div class="email__body"></div>
-      </div>
+      <div id="inbox__unopened"></div>
+      <div id="inbox__opened"></div>
     </div>
   </div>
 </body>
 
 </html>
-
-
-<!------ ZAKOMENTOVANA STRUKTURA MAILU
-<div class="email">
-  <div class="email__head">
-    <button class="email__icon email__icon--closed"></button>
-    <div class="email__info">
-      <div class="email__sender">Finanční úřad</div>
-      <div class="email__subject">Daňové přiznání</div>
-    </div>
-    <div class="email__time">9:05</div>
-  </div>
-  <div class="email__body"></div>
-</div>
-
----->
